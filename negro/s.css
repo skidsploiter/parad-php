@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+    color: #1a191a;
+    background: #fff;
+}
+
+img {
+    user-select: none;
+}
+
+.gradient {
+  background: linear-gradient(to right, #ffa200, #111);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  user-select: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: #1a191a;
+  font-family: "Inter", sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1000px;
+  max-height: 900vh;
+  margin: 0 auto;
+  position: relative;
+}
+.head h4 {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Unbounded", serif;
+  text-align: center;
+  padding-top: 120px;
+  animation: hhhh 1s;
+}
+@keyframes hhhh {
+  from {
+    margin-top: -20px;
+    opacity: 0;
+  }
+}
+.under_line {
+  width: 50px;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+  top: 11px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: under_x 1.5s;
+  transition: 0.2s;
+}
+@keyframes under_x {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+}
+.main_box {
+  width: 555px;
+  height: 450px;
+  background-color: transparent;
+  border: 1px solid rgb(40, 40, 40);
+  border-radius: 5px;
+  position: relative;
+  top: 255px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: load_xx 1s;
+}
+@keyframes load_xx {
+  from {
+    margin-top: 88px;
+  }
+}
+.username h3 {
+  color: rgb(90, 90, 90);
+  font-size: 15px;
+  font-family: "Open Sans", serif;
+  position: absolute;
+  top: 5%;
+  left: 2.4%;
+  animation: username 1.1s;
+}
+@keyframes username {
+  from {
+    opacity: 0;
+  }
+}
+.username_box {
+  width: 300px;
+  height: 30px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+  position: absolute;
+  top: 12.5%;
+  left: 1.8%;
+  border: 1.8px solid rgb(40, 40, 40);
+}
+.password h3 {
+  color: rgb(90, 90, 90);
+  font-size: 15px;
+  font-family: "Open Sans", serif;
+  position: absolute;
+  top: 25%;
+  left: 2.4%;
+  animation: pass 3s;
+}
+@keyframes pass {
+  from {
+    opacity: 0;
+  }
+}
+.pass_box {
+  width: 300px;
+  height: 30px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+  position: absolute;
+  top: 33%;
+  left: 1.8%;
+  border: 1.8px solid rgb(40, 40, 40);
+}
+.pin h3 {
+  color: rgb(90, 90, 90);
+  font-size: 15px;
+  font-family: "Open Sans", serif;
+  position: absolute;
+  top: 47%;
+  left: 2.4%;
+  animation: pin_x 4s;
+}
+@keyframes pin_x {
+  from {
+    opacity: 0;
+  }
+}
+.pin_box {
+  width: 300px;
+  height: 30px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+  position: absolute;
+  top: 55%;
+  left: 1.8%;
+  border: 1.8px solid rgb(40, 40, 40);
+}
+.license h3 {
+  color: rgb(90, 90, 90);
+  font-size: 15px;
+  font-family: "Open Sans", serif;
+  position: absolute;
+  top: 69%;
+  left: 2.4%;
+  animation: pin_xxx 5s;
+}
+@keyframes pin_xxx {
+  from {
+    opacity: 0;
+  }
+}
+.license_box {
+  width: 300px;
+  height: 30px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+  position: absolute;
+  top: 77.5%;
+  left: 1.8%;
+  border: 1.8px solid rgb(40, 40, 40);
+}
+
+.Button {
+  background-color: #111;
+  font-family: 'Unbounded';
+  border-radius: 100px;
+  box-shadow: rgba(255, 215, 0, 0.2) 0 -25px 18px -14px inset, 
+              rgba(255, 215, 0, 0.15) 0 1px 2px, 
+              rgba(255, 215, 0, 0.15) 0 2px 4px, 
+              rgba(255, 215, 0, 0.15) 0 4px 8px, 
+              rgba(255, 215, 0, 0.15) 0 8px 16px, 
+              rgba(255, 215, 0, 0.15) 0 16px 32px;
+  color: #FFD700;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  /* Retained properties */
+  width: fit-content;
+  position: absolute;
+  top: 89%;
+  left: 81.5%;
+}
+
+.Button:hover {
+  box-shadow: rgba(255, 215, 0, 0.35) 0 -25px 18px -14px inset, 
+              rgba(255, 215, 0, 0.25) 0 1px 2px, 
+              rgba(255, 215, 0, 0.25) 0 2px 4px, 
+              rgba(255, 215, 0, 0.25) 0 4px 8px, 
+              rgba(255, 215, 0, 0.25) 0 8px 16px, 
+              rgba(255, 215, 0, 0.25) 0 16px 32px;
+  transform: scale(1.15) rotate(3deg);
+}
+
+
+
+@keyframes brighten {
+  0% {
+    filter: none;
+  }
+  100% {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg)
+      brightness(100%) contrast(100%);
+  }
+}
+@keyframes dim {
+  0% {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg)
+      brightness(100%) contrast(100%);
+  }
+  100% {
+    filter: none;
+  }
+}
+.username_box img {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 27%;
+  left: 4%;
+  animation: username_x 2s;
+}
+@keyframes username_x {
+  from {
+    opacity: 0;
+  }
+}
+.pass_box img {
+  position: absolute;
+  top: 11%;
+  left: 4%;
+  animation: pin 3.5s;
+}
+@keyframes pin {
+  from {
+    opacity: 0;
+  }
+}
+.pin_box img {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 25%;
+  left: 4%;
+  animation: pin_xx 4.5s;
+}
+@keyframes pin_xx {
+  from {
+    opacity: 0;
+  }
+}
+.license_box img {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 25%;
+  left: 4%;
+  animation: pin_xxxx 5.5s;
+}
+@keyframes pin_xxxx {
+  from {
+    opacity: 0;
+  }
+}
+.username_box input[type="text"] {
+  border: none;
+  background-color: transparent;
+  height: 18px;
+  width: 240px;
+  color: #fff;
+  font-size: 11px;
+  font-family: "Open Sans", serif;
+  position: absolute;
+    transition: box-shadow 2s;
+  top: 22%;
+  left: 16%;
+}
+.pass_box input[type="password"] {
+  border: none;
+  background-color: transparent;
+  height: 18px;
+  width: 240px;
+  color: #fff;
+  font-size: 11px;
+  font-family: "Open Sans", serif;
+  position: absolute;
+  top: 22%;
+    transition: box-shadow 2s;
+  left: 16%;
+}
+.pin_box input[type="number"] {
+  border: none;
+  background-color: transparent;
+  height: 18px;
+  width: 240px;
+  color: #fff;
+  font-size: 11px;
+  font-family: "Open Sans", serif;
+  position: absolute;
+  top: 22%;
+    transition: box-shadow 2s;
+  left: 16%;
+}
+.license_box input[type="password"] {
+  border: none;
+  background-color: transparent;
+  height: 18px;
+  width: 240px;
+  color: #fff;
+  font-size: 11px;
+  font-family: "Open Sans", serif;
+  position: absolute;
+  top: 22%;
+  left: 16%;
+    transition: box-shadow 2s;
+}
+
+.username_box input[type="text"]:focus,
+.pass_box input[type="password"]:focus,
+.pin_box input[type="number"]:focus,
+.license_box input[type="password"]:focus {
+  outline: none; /* Removes the default focus outline */
+  /*box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Optional: Adds a subtle glow effect
+    transition: box-shadow 2s;*/
+}
+
+.already_x {
+  width: 245px;
+  height: 30px;
+  position: relative;
+  top: 63px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.already_x h1 {
+  font-size: 15px;
+  color: rgb(90, 90, 90);
+  font-family: "Noto Sans", serif;
+  position: absolute;
+  top: 15%;
+  left: 2.8%;
+  animation: alreado 1s;
+}
+@keyframes alreado {
+  from {
+    opacity: 0;
+    margin-top: -5px;
+  }
+}
+.already_x h3 {
+  font-size: 15px;
+  color: rgb(80, 80, 80);
+  opacity: 0.9;
+  font-family: "Noto Sans", serif;
+  position: absolute;
+  top: 15%;
+  left: 64%;
+  transition: 0.2s;
+}
+.already_x h3:hover {
+  cursor: pointer;
+  color: #fff;
+  margin-botton: 40px;
+  transform: 10px;
+  bottom: 20px;
+}
