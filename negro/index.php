@@ -105,7 +105,7 @@ if (isset($_SESSION['username'])) {
                 <div class="username">
                     <h3>Username</h3>
                     <div class="username_box">
-                        <img draggable="false" src="https://ro-exec.live/icon/user.png">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
                         <input name="username" autocomplete="off" id="username" type="text" placeholder="eg., catlover12" required>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ if (isset($_SESSION['username'])) {
                 <div class="password">
                     <h3>Password</h3>
                     <div class="pass_box">
-                        <img draggable="false" src="https://ro-exec.live/icon/password.png">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-key"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"/><path d="m21 2-9.6 9.6"/><circle cx="7.5" cy="15.5" r="5.5"/></svg>
                         <input name="password" id="pass" type="password" placeholder="eg., ilovekitties1234" required>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ if (isset($_SESSION['username'])) {
                 <div class="pin">
                     <h3>Pin</h3>
                     <div class="pin_box">
-                        <img draggable="false" src="https://ro-exec.live/icon/padlock.png">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pin"><path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/></svg>
                         <input name="pin" id="pin" type="number" placeholder="eg., 1337" max='9999' required>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ if (isset($_SESSION['username'])) {
                 <div class="license">
                     <h3>License</h3>
                     <div class="license_box">
-                        <img draggable="false" src="https://ro-exec.live/icon/key.png">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-id-card"><path d="M16 10h2"/><path d="M16 14h2"/><path d="M6.17 15a3 3 0 0 1 5.66 0"/><circle cx="9" cy="11" r="2"/><rect x="2" y="5" width="20" height="14" rx="2"/></svg>
                         <input name="license" autocomplete="off" id="license" type="password" placeholder="ae3052b5ded8772d14cc460d149c4bc55eb3b8766fae91924d9db1c40b83a055" required>
                     </div>
                 </div>
