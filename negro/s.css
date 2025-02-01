@@ -242,7 +242,7 @@ body {
     filter: none;
   }
 }
-.username_box img {
+.username_box svg {
   width: 13px;
   height: 13px;
   position: absolute;
@@ -255,7 +255,7 @@ body {
     opacity: 0;
   }
 }
-.pass_box img {
+.pass_box svg {
   position: absolute;
   top: 11%;
   left: 4%;
@@ -266,7 +266,7 @@ body {
     opacity: 0;
   }
 }
-.pin_box img {
+.pin_box svg {
   width: 13px;
   height: 13px;
   position: absolute;
@@ -279,7 +279,7 @@ body {
     opacity: 0;
   }
 }
-.license_box img {
+.license_box svg {
   width: 13px;
   height: 13px;
   position: absolute;
